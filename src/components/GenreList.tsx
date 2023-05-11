@@ -24,7 +24,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
 
   return (
     <>
-      <Heading fontSize="2xl" marginBottom={3}>
+      <Heading marginTop={10} fontSize="2xl" marginBottom={3}>
         Genres
       </Heading>
       <List>
