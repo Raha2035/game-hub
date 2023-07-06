@@ -1,4 +1,4 @@
-import { Trailer } from "../entities/trailer";
+import Trailer from "../entities/trailer";
 import useTrailers from "../hooks/useTrailers";
 
 interface Props {
