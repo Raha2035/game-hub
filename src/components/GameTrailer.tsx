@@ -11,7 +11,7 @@ const GameTrailer = ({ gameId }: Props) => {
 
   if (error) throw error;
 
-  const first: Trailer = data?.results[0] as Trailer;
+  const first = data?.results[0] as Trailer;
 
   return first ? (
     <video src={first.data[480]} poster={first.preview} controls />
